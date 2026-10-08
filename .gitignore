@@ -1,0 +1,23 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE / OS local files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and test artifacts
+*.log
+coverage.xml
+htmlcov/
