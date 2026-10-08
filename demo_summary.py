@@ -13,7 +13,7 @@ def main() -> None:
         {"date": "2026-10-05", "service": "General Consultation"},
         {"date": "2026-10-19", "service": "Follow-up"},
     ]
-    summary = build_summary(patient, appointments)
+    summary = build_summary(patient, appointments, "maintenance")
     print(json.dumps(summary, indent=2))
 
 
